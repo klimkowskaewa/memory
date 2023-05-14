@@ -8,6 +8,7 @@ import { NavigationComponent } from "./ui/navigation/navigation.component";
 import { CategoriesComponent } from "./features/categories/categories.component";
 import { CategoryCardComponent } from "./ui/category-card/category-card.component";
 import { FormsModule } from "@angular/forms";
+import { FlashCardsComponent } from './features/flash-cards/flash-cards.component';
 
 @NgModule({
   declarations: [
@@ -15,6 +16,7 @@ import { FormsModule } from "@angular/forms";
     NavigationComponent,
     CategoriesComponent,
     CategoryCardComponent,
+    FlashCardsComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, FormsModule],
   providers: [],
