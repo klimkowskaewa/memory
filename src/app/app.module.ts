@@ -8,7 +8,8 @@ import { NavigationComponent } from "./ui/navigation/navigation.component";
 import { CategoriesComponent } from "./features/categories/categories.component";
 import { CategoryCardComponent } from "./ui/category-card/category-card.component";
 import { FormsModule } from "@angular/forms";
-import { FlashCardsComponent } from './features/flash-cards/flash-cards.component';
+import { FlashCardsComponent } from "./features/flash-cards/flash-cards.component";
+import { GamesComponent } from "./features/games/games.component";
 
 @NgModule({
   declarations: [
@@ -17,6 +18,7 @@ import { FlashCardsComponent } from './features/flash-cards/flash-cards.componen
     CategoriesComponent,
     CategoryCardComponent,
     FlashCardsComponent,
+    GamesComponent,
   ],
   imports: [BrowserModule, AppRoutingModule, FontAwesomeModule, FormsModule],
   providers: [],
